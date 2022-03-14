@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"mymodule/mypackage"
+	"mymodule/handlers"
 )
 
 func main() {
+	handlers.NewHello("")
 	fmt.Println("Hello modules")
 
-	mypackage.PrintHello()
 }
